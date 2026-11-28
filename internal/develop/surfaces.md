@@ -56,7 +56,11 @@ runtime (Node.js for Next.js and scripts, Convex's runtime, Electron, Hermes).
   `bun run license:check` at the root and in `apps/desktop`. The desktop SBOM comes from the
   same walk.
 - npm still publishes `@layernorm/overlay-agent-*` (trusted publishing with provenance);
-  `npm pack` and `npm publish` work in the Bun workspace.
+  `npm pack` and `npm publish` work in the Bun workspace. Each package's trusted publisher on
+  npmjs.com must name `LayerNorm` / `overlay` / `publish-agent-host.yml` / `Production` exactly
+  and allow `npm publish` (new ones allow only `npm stage publish`). npm can't edit one: delete
+  and recreate it, then publish within 2 days or it expires. A refused sign-in shows as a 404
+  on the upload; the reason is the `oidc` line in the publish step's verbose log.
 
 ## Building, testing and releasing
 

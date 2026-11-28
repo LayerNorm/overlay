@@ -1,10 +1,9 @@
 # Desktop onboarding: setting Overlay up on this computer
 
 Status: Phases 1–3 merged (PR 638) and live on overlay.works since 2026-11-27 (`434a46f`); the desktop side shipped in
-Overlay Desktop 0.6.0. Phase 4 and Settings → Import are built in two draft PRs (2026-11-27): local MCP servers and
-Settings → Import (`codex/desktop-local-mcp-import`), and Claude and ChatGPT plans with Overlay's models
-(`codex/private-threads-subscriptions`, which includes the first). Not merged; they reach the app only after an Agent Host
-release, a desktop pin bump and a signed desktop release. Not yet accepted in the released app by a real new account.
+Overlay Desktop 0.6.0. Phase 4 and Settings → Import (local MCP servers, Claude and ChatGPT plans, Overlay's models)
+merged in PR 705 and their web side is live on overlay.works (2026-11-28). Not released: they reach the app only after
+Agent Host 0.8.0 is on npm, a desktop pin bump and a signed desktop release. Not yet accepted in the released app by a real new account.
 Mockup: `internal/plans/mockups/desktop-onboarding.html`.
 
 Related: `internal/plans/LOCAL_PRIVATE_THREADS_PLAN.md` (private threads, model keys, free tier),

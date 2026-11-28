@@ -5,8 +5,9 @@ Host 0.6.0 published to npm, and shipped in Overlay Desktop 0.4.0 (2026-11-21).
 Free tier approved (Decision 4, 2026-11-24) and the paid-first plan amended.
 Phase 1–2 gaps closed and Phase 3 merged (PR 618, 2026-11-25): live on web, Convex
 production deployed, Agent Host 0.7.0 published to npm, and shipped in Overlay Desktop 0.5.0
-(2026-11-26). Phase 4 (plans and Overlay-billed models) built in a draft PR (2026-11-27): not merged, not released
-(it needs Agent Host 0.8.0 published and a desktop release), not accepted. Phase 5 not started. Living doc:
+(2026-11-26). Phase 4 (plans and Overlay-billed models) merged (PR 705) and its web side live on overlay.works
+(2026-11-28); not released in the desktop app (Agent Host 0.8.0 is not on npm yet, then the desktop pin and a signed
+release), not accepted: real Claude and ChatGPT sign-in is untested. Phase 5 not started. Living doc:
 `internal/develop/private-threads.md`.
 
 Repository: `LayerNorm/overlay` (`apps/desktop`, `packages/overlay-agent-host`, web UI).
