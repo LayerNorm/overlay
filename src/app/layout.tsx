@@ -52,11 +52,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  icons: {
-    icon: [
-      { url: "/icon.png", sizes: "64x64", type: "image/png" },
-    ],
-  },
   openGraph: {
     title: "Overlay: The AI Chief of Staff that works with your team",
     description:
